@@ -340,7 +340,7 @@ public class registrodepropuestas extends AppCompatActivity {
 
     public void programarNotificacion(String nombreProyecto, long votingDeadlineMillis) {
         long tiempoActual = System.currentTimeMillis();
-        long tiempoNotificacion = votingDeadlineMillis - 5 * 60 * 1000; // 5 minutos antes del deadline
+        long tiempoNotificacion = votingDeadlineMillis - 3 * 60 * 1000; // 3 minutos antes del deadline
 
         if (tiempoNotificacion > tiempoActual) {
             long retraso = tiempoNotificacion - tiempoActual;
@@ -361,7 +361,7 @@ public class registrodepropuestas extends AppCompatActivity {
             // Encolar la solicitud
             WorkManager.getInstance(this).enqueue(workRequest);
 
-            Toast.makeText(this, "Notificación programada 5 minutos antes del cierre de votaciones", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Notificación programada 3 minutos antes del cierre de votaciones", Toast.LENGTH_SHORT).show();
         } else {
             Toast.makeText(this, "El plazo ya pasó o no hay tiempo suficiente para programar", Toast.LENGTH_SHORT).show();
         }

@@ -46,7 +46,7 @@ public class VotingNotificationWorker extends Worker {
         }
 
         String tituloPrincipal = "Ya votaste🤔❓";
-        String tituloSecundario = "Faltan 5 minutos para cerrar las votaciones del proyecto " + nombreProyecto;
+        String tituloSecundario = "Faltan 3 minutos para cerrar las votaciones del proyecto " + nombreProyecto;
         String descripcion = "Recuerda que tienes tiempo para votar hasta " + votingDeadline + " El proyecto a votar es: " + nombreProyecto;
 
 
