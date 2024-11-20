@@ -1,0 +1,56 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Date Picker -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione la fecha:" />
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="371dp"
+        android:layout_height="220dp"
+        android:calendarViewShown="true" />
+
+    <!-- Spinner para localidad -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione la localidad:" />
+
+    <Spinner
+        android:id="@+id/spinnerLocalidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Spinner para tipo de proyecto -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione el tipo de proyecto:" />
+
+    <Spinner
+        android:id="@+id/spinnerTipoProyecto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Botón para aplicar filtros -->
+
+    <!-- RecyclerView para mostrar los resultados -->
+    <Button
+        android:id="@+id/btnFiltrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filtrar" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewConteoVotos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/projectNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proyecto Nombre" />
+
+    <TextView
+        android:id="@+id/votosTextView"
+        android:layout_width="111dp"
+        android:layout_height="32dp"
+        android:text="Votos" />
+</LinearLayout>
+

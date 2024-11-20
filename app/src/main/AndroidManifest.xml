@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.hardware.location.gps" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- Permiso para mostrar notificaciones -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- Permiso para servicios en primer plano -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_launcher_background"
+        android:label="@string/app_name"
+        android:roundIcon="@android:drawable/sym_def_app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProyectoVotos"
+        tools:targetApi="31">
+        <activity
+            android:name=".decisor.adapterConteodeVotos"
+            android:exported="false" />
+        <activity
+            android:name=".decisor.conteodevotosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".decisor.GenerarExcel"
+            android:exported="false" />
+        <activity
+            android:name=".decisor.boton_eliminar"
+            android:exported="false" />
+        <activity
+            android:name=".decisor.boton_editar"
+            android:exported="false" />
+        <activity
+            android:name=".decisor.boton_Ver"
+            android:exported="false" />
+        <activity
+            android:name=".Homes.HomeAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".votos.votacion"
+            android:exported="false" />
+        <activity
+            android:name=".votos.puestosDeVotacion"
+            android:exported="false" />
+        <activity
+            android:name=".propuestas.VerProyectoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".propuestas.VerPropuestasdelocalidades"
+            android:exported="false" />
+        <activity
+            android:name=".propuestas.VerPropuestasPorTipoDeProyecto"
+            android:exported="false" />
+        <activity
+            android:name=".propuestas.registrodepropuestas"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAMp_LEifcWuwwHbWa99j8IMUN6MjFj_SQ" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name=".Registros.RegisterPlaneadores"
+            android:exported="false" /> <!-- Registrar la actividad principal -->
+        <activity
+            android:name=".Registros.RegisterVotante"
+            android:exported="true" />
+        <activity
+            android:name=".iniciodesesion.Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Homes.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Homes.HomeProyectos"
+            android:exported="false" />
+    </application>
+
+</manifest>

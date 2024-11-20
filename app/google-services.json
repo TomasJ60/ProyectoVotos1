@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "12807708794",
+    "project_id": "proyecto-votos-c343f",
+    "storage_bucket": "proyecto-votos-c343f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12807708794:android:717916e9257e0a61705bc3",
+        "android_client_info": {
+          "package_name": "co.edu.unipiloto.proyectovotos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvW7POEmq7bCM4h4DjmY1Ppf4U4jFaFnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

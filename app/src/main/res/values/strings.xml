@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Proyecto Votos</string>
+
+    <string-array name="localidades">
+        <item>Usaquén</item>
+        <item>Chapinero</item>
+        <item>Santa Fe</item>
+        <item>San Cristóbal</item>
+        <item>Usme</item>
+        <item>Tunjuelito</item>
+        <item>Bosa</item>
+        <item>Kennedy</item>
+        <item>Fontibón</item>
+        <item>Engativá</item>
+        <item>Suba</item>
+        <item>Barrios Unidos</item>
+        <item>Teusaquillo</item>
+        <item>Los Mártires</item>
+        <item>Antonio Nariño</item>
+        <item>Puente Aranda</item>
+        <item>La Candelaria</item>
+        <item>Rafael Uribe Uribe</item>
+        <item>Ciudad Bolívar</item>
+        <item>Sumapaz</item>
+    </string-array>
+
+    <string-array name="propuestasPorlocalidaes">
+        <item>Usaquén</item>
+        <item>Chapinero</item>
+        <item>Santa Fe</item>
+        <item>San Cristóbal</item>
+        <item>Usme</item>
+        <item>Tunjuelito</item>
+        <item>Bosa</item>
+        <item>Kennedy</item>
+        <item>Fontibón</item>
+        <item>Engativá</item>
+        <item>Suba</item>
+        <item>Barrios Unidos</item>
+        <item>Teusaquillo</item>
+        <item>Los Mártires</item>
+        <item>Antonio Nariño</item>
+        <item>Puente Aranda</item>
+        <item>La Candelaria</item>
+        <item>Rafael Uribe Uribe</item>
+        <item>Ciudad Bolívar</item>
+        <item>Sumapaz</item>
+    </string-array>
+    <string-array name="tipo_proyecto_array">
+        <item>Servicios Públicos</item>
+        <item>Parques</item>
+        <item>Comunitarios</item>
+        <item>Educación</item>
+        <item>Salud</item>
+    </string-array>
+
+
+</resources>
